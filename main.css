@@ -1,0 +1,66 @@
+*{
+    margin:0 ; /* this is to remove any margin from my background image*/
+    padding: 0; /* this is to remove any space around my background image*/
+}
+
+.background{
+    position: relative;
+    background-repeat: no-repeat; /* Do not repeat the image */
+   background-size:cover;/* background-size can be defined with pixels or names*/
+   justify-content: center;
+}
+
+.background::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom:0px;
+    left:0px;
+    background-image: url("Pictures/Tropicale.jpg");
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;/* background-size can be defined with pixels or names*/
+    opacity: 0.85; 
+    height: 100vh; /*makes the image cover 100% of the viewport height*/
+    background-position: center; /*makes the image centered on web or mobile*/
+ }
+
+ h1,p,a {
+    position: relative; /*position of text has to be relative in order to get get opaque aswell*/
+    /*padding-left: 10%;*/
+    text-align: center;
+}
+
+ .big {
+    font-family: 'Cinzel', serif;
+    font-size: 50px;
+    font-weight: bolder;
+    padding-top: 18%;
+    color: white;
+    letter-spacing: 5px;
+}
+
+#Brazil {
+    font-size: 120px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 6px;
+    color: white;
+}
+ 
+p.explore{
+    padding-top: 8%;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    color: white;
+}
+
+div.footer{
+    padding-bottom: 5%;
+}
+
+a{
+    background: #000;
+    padding: 10px 40px;
+    text-align: center;
+
+}
