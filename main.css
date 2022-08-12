@@ -1,6 +1,7 @@
 *{
     margin:0 ; /* this is to remove any margin from my background image*/
     padding: 0; /* this is to remove any space around my background image*/
+    box-sizing: border-box;
 }
 
 .background{
@@ -17,50 +18,73 @@
     right: 0px;
     bottom:0px;
     left:0px;
-    background-image: url("Pictures/Tropicale.jpg");
+    background-image: url("Pictures/Rio.jpg");
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;/* background-size can be defined with pixels or names*/
     opacity: 0.85; 
     height: 100vh; /*makes the image cover 100% of the viewport height*/
-    background-position: center; /*makes the image centered on web or mobile*/
+    background-position: 35%; /*makes the image focal point after 35% to be responsive and focused*/
  }
 
- h1,p,a {
-    position: relative; /*position of text has to be relative in order to get get opaque aswell*/
-    /*padding-left: 10%;*/
-    text-align: center;
-}
+ /*h1,p {
+    /*position: relative; position of text has to be relative in order to get get opaque aswell*/
+    /*padding-left: 10%;} */
 
  .big {
-    font-family: 'Cinzel', serif;
-    font-size: 50px;
-    font-weight: bolder;
-    padding-top: 18%;
-    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 35px;
+    color:#BEBEBE;
     letter-spacing: 5px;
+    text-transform: uppercase;
+   /* height:45px;
+    width: 400px;
+    border: 2px solid black;
+    padding: 0 20%;
+    top:200px;
+    right:220px;
+    position: absolute;
+    text-align: center;
+    min-width: 300px;*/
+   
 }
 
+
 #Brazil {
-    font-size: 120px;
-    font-family: 'Playfair Display', serif;
-    letter-spacing: 6px;
-    color: white;
+    font-size: 70px;
+    font-family: 'Lexend Zetta', sans-serif;
+    letter-spacing: 5px;
+    color: black;
+    text-transform: uppercase;
+
 }
  
 p.explore{
     padding-top: 8%;
-    font-family: 'Cinzel', serif;
-    font-size: 20px;
-    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    color: black;
+    text-transform: uppercase;
+    text-align: right justify;
+    position: absolute;
+    top: 250px;
+    right: 10px;
+    font-weight: bold;
+    max-width: 50vw;
+
 }
 
 div.footer{
     padding-bottom: 5%;
 }
 
-a{
-    background: #000;
-    padding: 10px 40px;
-    text-align: center;
-
+a {
+    color: black;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background-color: white;
+    position: absolute;
+    top: 420px;
+    right: 100px;
+    border: 1px solid black;
 }
+
