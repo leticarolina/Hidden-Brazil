@@ -1,7 +1,7 @@
 *{
+    box-sizing: border-box;
     margin:0 ; /* this is to remove any margin from my background image*/
     padding: 0; /* this is to remove any space around my background image*/
-    box-sizing: border-box;
 }
 
 .background{
@@ -26,26 +26,21 @@
     background-position: 35%; /*makes the image focal point after 35% to be responsive and focused*/
  }
 
- /*h1,p {
-    /*position: relative; position of text has to be relative in order to get get opaque aswell*/
-    /*padding-left: 10%;} */
+ h1 {
+    position: relative; /*position of text has to be relative in order to get get opaque aswell*/
+    left: 0px;
+    right: 0px;
+    text-align: center; /*to center text in the middle use left and right 0px and then align text in the center*/
+ }
 
  .big {
     font-family: 'Roboto Mono', monospace;
     font-size: 35px;
     color:#BEBEBE;
     letter-spacing: 5px;
-    text-transform: uppercase;
-   /* height:45px;
-    width: 400px;
-    border: 2px solid black;
-    padding: 0 20%;
-    top:200px;
-    right:220px;
-    position: absolute;
-    text-align: center;
-    min-width: 300px;*/
-   
+    border: 2px solid #BEBEBE;
+    top: 70px;
+    padding: 0px 0px;
 }
 
 
@@ -53,22 +48,23 @@
     font-size: 70px;
     font-family: 'Lexend Zetta', sans-serif;
     letter-spacing: 5px;
-    color: black;
-    text-transform: uppercase;
+    color: #b56727;
+    padding-top: 80px;
+
 
 }
  
 p.explore{
     padding-top: 8%;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Trebuchet MS', sans-serif;
     font-size: 15px;
-    color: black;
+    color: #b56727;
     text-transform: uppercase;
     text-align: right justify;
     position: absolute;
     top: 250px;
     right: 10px;
-    font-weight: bold;
+    font-weight: lighter;
     max-width: 50vw;
 
 }
