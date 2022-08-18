@@ -94,6 +94,7 @@ div.footer{
     border-radius: 10px;
     font-family: 'Saira';
     text-decoration: none; /*to remove underline from the anchor*/
+    margin-top: 20px;
 }
 
 .discover a:hover{
