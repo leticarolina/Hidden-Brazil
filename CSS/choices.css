@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Anonymous';
+    src: url('/Font/AnonymousPro.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Amatic';
+    src: url('/Font/AmaticSC.ttf') format('truetype');
+}
+
+.content{
+ min-height: 95vh;
+}
+
+h1,p,h2 {
+    text-align: center;
+}
+
+.vibe{
+    color:white;
+    background-color: #b56727;
+    padding: 15px;
+    border: 1px solid #b56727;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: 'Amatic', 'cursive';
+    font-weight:normal;
+
+}
+
+
+.description{
+    font-size: 20px;
+    margin: 0px 50px 0px;
+    padding: 30px 0px 25px 0px;
+    font-family: 'Anonymous';
+    text-decoration: none;
+    word-spacing: 2px;
+    color: #964b00;
+    opacity: .8;
+    
+}
+
+.destination{
+    padding: 10px 0px 10px; /*padding only on text so image won't have any spaces*/
+    font-family: 'Saira';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 20px;
+    color:  #964b00;
+    
+}
+
+.brief{
+    color: #7e7e7e;
+    size: 8px;
+    font-family: 'Anonymous';
+}
+
+.choices{
+    /*display: inline; /*to make the cards side by side*/
+    /*to centralize the card on the page*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    background-color: #efe6dc;
+    margin: 60px 15px 0px 15px;
+    height: 300px; /*define height of the card*/
+    width: 320px; /*define width of the card*/ 
+    max-width: 400px;
+    justify-content: center;
+    
+}
+
+.img{
+
+    height: 210px;
+    padding: 0;
+    margin: 0px;
+    background-size: cover; /* to make the image cover the space defined above*/
+    
+}
+
+.paradise{
+    background-image: url('/Pictures/noronha.jpg');
+}
+
+.unique{
+    background-image: url('/Pictures/lencois.jpeg');
+}
+
+.biodiverse{
+    background-image: url('/Pictures/jalapao.jpeg');
+}
+
+.waterfall{
+    background-image: url('/Pictures/chapada.jpg');
+}
+a{
+    text-decoration: none;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition:all .6s ease;
+    background-color: #f5f5f5;
+    border: 1px solid  #b56727;
+
+}
+
+.downline{
+   padding: 10px 0px ;
+    position: relative;
+    padding-top: 20px ;
+    margin: 0 auto;
+    width: 400px;
+    border-radius: 10px;
+    font-family: 'Anonymous';
+    font-size: 12px;
+    color: #7e7e7e;
+ 
+}
+
+.downline:hover{
+    color: black;
+    text-decoration: none;
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+
+}
+
