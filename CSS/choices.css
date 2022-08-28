@@ -14,6 +14,31 @@
     src: url('/Font/AmaticSC.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Saira';
+    src: url('Font/Saira-VariableFont_wdth,wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Sang';
+    src: url('Font/SangBleu-Sunrise.ttf') format('truetype');
+}
+/* CHOICES HTML */
+
+.background{
+   /* content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom:0px;
+    left:0px;
+    background-image: url("/Pictures/rio.jpg");
+    background-repeat: no-repeat; /* Do not repeat the image */
+   /* background-size: cover;/* background-size can be defined with pixels or names*/
+   /* background-position: 90%; /*makes the image focal point after 35% to be responsive and focused*/
+   background-color: #f5efe7;
+}
+
 .content{
  min-height: 95vh;
 }
@@ -23,10 +48,9 @@ h1,p,h2 {
 }
 
 .vibe{
-    color:white;
-    background-color: #b56727;
+    color:#efe0cf;
+    background-color: #593123;
     padding: 15px;
-    border: 1px solid #b56727;
     font-size: 70px;
     text-transform: uppercase;
     font-family: 'Amatic', 'cursive';
@@ -39,11 +63,11 @@ h1,p,h2 {
     font-size: 20px;
     margin: 0px 50px 0px;
     padding: 30px 0px 25px 0px;
-    font-family: 'Anonymous';
+    font-family: 'Sang';
     text-decoration: none;
-    word-spacing: 2px;
-    color: #964b00;
-    opacity: .8;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    color: #593123;
     
 }
 
@@ -72,13 +96,22 @@ h1,p,h2 {
     justify-content: center;
 }
 
+.line{
+    border-top: 1px solid #b56727;
+    border-bottom: 1px solid #b56727;
+    padding-bottom: 60px;
+    margin: 0 auto;
+    max-width: 1400px; 
+}
+
 .card{
-    background-color: #efe6dc;
+    background-color: #efe0cf;
     margin: 60px 15px 0px 15px;
     height: 300px; /*define height of the card*/
     width: 320px; /*define width of the card*/ 
     max-width: 400px;
     justify-content: center;
+
     
 }
 
@@ -114,7 +147,7 @@ a{
     transform: scale(1.1);
     transition:all .6s ease;
     background-color: #f5f5f5;
-    border: 1px solid  #b56727;
+    border: 1px solid  #593123;
 
 }
 
@@ -127,15 +160,86 @@ a{
     border-radius: 10px;
     font-family: 'Anonymous';
     font-size: 12px;
-    color: #7e7e7e;
+    color: white;
+    text-decoration: none;
  
 }
 
 .downline:hover{
     color: black;
-    text-decoration: none;
     transform: scale(1.1);
     transition: all 0.5s ease;
 
 }
+/* NORONHA,JALAPAO,CHAPADA E LENCOIS HTML */
+/* NORONHA,JALAPAO,CHAPADA E LENCOIS HTML */
 
+.relative{
+    position: relative;
+}
+
+.photo{
+    background-image: url("/Pictures/noronha/montanha.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 35px; /*these are to define size of the picture*/
+    right: 30px;
+    bottom:0px;
+    left:30px;
+    background-position: 15%; /*define focal point on background image*/
+    z-index: -1;
+    height: 97vh;
+}
+
+#margin{
+ margin-left: 30px;
+ margin-right: 30px;
+}
+
+.header{
+    text-align: center; /*centralize the text on the element*/
+    padding-top: 500px; 
+    color: aliceblue; 
+   margin: 0px 30px ;
+}
+
+.welcome{
+    font-family: 'Anonymous';
+    font-size: 40px;
+    letter-spacing: 5px;
+    padding-bottom: 30px;
+
+}
+
+.place{
+font-size: 65px;
+    font-family: 'Anonymous';
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding: 20px 0px ;
+    max-width: 900px; /* the max size of my border*/
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    margin: 0 auto;
+   
+}
+
+.short-1{
+    font-family: 'Sang';
+    font-size: 25px;
+    padding-top: 180px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    max-width: 1200px;
+    font-weight: 400;
+    
+}
+
+.special{
+    font-size: 40px;
+    font-family: 'Sang';
+    text-transform: uppercase;
+    font-weight: lighter;
+
+
+}
