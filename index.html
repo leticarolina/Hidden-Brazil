@@ -5,18 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home - Travel to Brazil</title>
-    <link href="/CSS/main.css" rel="stylesheet" />
+    <link href="CSS/main.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@300&family=Roboto+Mono:wght@300&display=swap"
       rel="stylesheet"
     />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <div class="background">
-      <header></header>
-      <main>
+      <nav class="bar">
+        <ul>
+          <li><a class="barlink" href="#">HOME</a></li>
+          <li><a class="barlink" href="#destinations">DESTINATIONS</a></li>
+          <li><a class="barlink" target="_blank" href="https://github.com/leticarolina">CREATOR</a></li>
+        </ul>
+      </nav>
+      <header>
+        <div class="background"></div>
         <div class="borderbig">
           <!-- had to create this extra div in order to configure my border to not extend the whole screen, so padding was added to thisd div-->
           <h1 class="big">the secrets of</h1>
@@ -25,11 +32,56 @@
         <p class="explore">
           Discover the most underrated travel spots in Brazil.
         </p>
-        <div class="discover">
-          <a href="choices.html">EXPLORE!</a>
+      </header>
+      <main>
+        <div class="content" id="destinations">
+          <div class="brown">
+          <h1 class="vibe">What is your vibe like?</h1>
+          <p class="description">
+            We all know Brazil is huge, right? Therefore, it give us the oportunity to
+            explore a handful of places! <br>But you can skip the search because I have
+            selected some really unpopular and beautiful destinations to
+            show you, but first I would like to know what gets your attention when you
+            are about to pick your next destination? 
+          </p>
+        </div>
+          <section >
+          <div class="card"><!-- this div is to set all the configurations on the cards size, margin padding etc-->
+              <a href="https://en.wikipedia.org/wiki/Fernando_de_Noronha" target="_blank">
+                <div class="paradise img"></div><!--I had to created this class with 2 name  "img" is to set 
+                  images properties and the name is tpo add the picture individually-->
+                <h2 class="destination">Paradise</h2>
+                <p class="brief">stunning beaches on a secluded island.</p>
+              </a>
+            </div>
+            <div class="card">
+              <a href="https://en.wikipedia.org/wiki/Len%C3%A7%C3%B3is_Maranhenses_National_Park" target="_blank">
+                <div class="unique img"></div>
+                <h2 class="destination">Unique</h2>
+                <p class="brief">different than any other place<br> you ever been.</p>
+              </a>
+            </div>
+            <div class="card">
+              <a href="https://en.wikipedia.org/wiki/Microregion_of_Jalap%C3%A3o" target="_blank">
+              <div class="biodiverse img"></div> 
+              <h2 class="destination">Biodiverse</h2>
+              <p class="brief">Immersion in nature</p>
+              </a>
+            </div>
+            <div class="card">
+              <a href="https://en.wikipedia.org/wiki/Chapada_dos_Veadeiros_National_Park" target="_blank">
+              <div class="waterfall img"></div>
+              <h2 class="destination">waterfall</h2>
+              <p class="brief">Fresh water and mountais.</p>
+              <a>
+            </div>
+          </section>
         </div>
       </main>
-      </footer>
-    </div>
+          <footer>
+            <div class="downline">
+              <a href="https://github.com/leticarolina" target="_blank"> <p>This page is created by Leticia Azevedo</p> </a>
+            </div>
+          </footer>
   </body>
 </html>

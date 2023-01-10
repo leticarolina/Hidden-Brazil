@@ -48,8 +48,7 @@ h1,p,h2 {
 }
 
 .vibe{
-    color:#efe0cf;
-    background-color: #593123;
+    color:#593123;
     padding: 15px;
     font-size: 70px;
     text-transform: uppercase;
@@ -171,6 +170,28 @@ a{
     transition: all 0.5s ease;
 
 }
+
+nav{
+    background-color: #593123;
+    height: 50px;
+
+
+}
+
+.barlink{
+    text-decoration: none;
+    color: white;
+  
+}
+
+li{
+    display: inline-block; /*so the list menu will be side to side*/
+    float: right;
+    padding-left: 50px; 
+    margin-right: 40px;
+    margin-top: 15px;
+    
+}
 /* NORONHA,JALAPAO,CHAPADA E LENCOIS HTML */
 /* NORONHA,JALAPAO,CHAPADA E LENCOIS HTML */
 
@@ -240,6 +261,5 @@ font-size: 65px;
     font-family: 'Sang';
     text-transform: uppercase;
     font-weight: lighter;
-
 
 }

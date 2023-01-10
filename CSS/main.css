@@ -1,117 +1,257 @@
-*{
-    box-sizing: border-box;
-    margin:0 ; /* this is to remove any margin from my background image*/
-    padding: 0; /* this is to remove any space around my background image*/
-}
-
- @font-face {
-    font-family: 'Saira';
-    src: url('Font/Saira-VariableFont_wdth,wght.ttf') format('truetype');
-
- }
-
- @font-face {
-    font-family: 'Anonymous';
-    src: url('/Font/AnonymousPro.ttf') format('truetype');
+* {
+  box-sizing: border-box;
+  margin: 0; /* this is to remove any margin from my background image*/
+  padding: 0; /* this is to remove any space around my background image*/
 }
 
 @font-face {
-    font-family: 'Amatic';
-    src: url('/Font/AmaticSC.ttf') format('truetype');
+  font-family: "Saira";
+  src: url("Font/Saira-VariableFont_wdth,wght.ttf") format("truetype");
 }
 
-.background{
-    position: relative;
-    background-repeat: no-repeat; /* Do not repeat the image */
-   background-size:cover;/* background-size can be defined with pixels or names*/
-   justify-content: center;
+@font-face {
+  font-family: "Anonymous";
+  src: url("/Font/AnonymousPro.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Amatic";
+  src: url("/Font/AmaticSC.ttf") format("truetype");
+}
+
+.background {
+  position: relative;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* background-size can be defined with pixels or names*/
+  justify-content: center;
 }
 
 .background::before {
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom:0px;
-    left:0px;
-    background-image: url("/Pictures/rio.jpg");
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover;/* background-size can be defined with pixels or names*/
-    opacity: 0.85; 
-    height: 100vh; /*makes the image cover 100% of the viewport height*/
-    background-position: 35%; /*makes the image focal point after 35% to be responsive and focused*/
- }
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: url("/Pictures/rio.jpg");
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* background-size can be defined with pixels or names*/
+  opacity: 0.85;
+  height: 100vh; /*makes the image cover 100% of the viewport height*/
+  background-position: 35%; /*makes the image focal point after 35% to be responsive and focused*/
+}
 
 h1 {
-    position: relative; /*position of text has to be relative in order to get get opaque aswell*/
-    text-align: center; /*to center text in the middle use left and right 0px and then align text in the center*/
-    left:0px;
-    right: 0px;
- }
-
-
+  position: relative; /*position of text has to be relative in order to get get opaque aswell*/
+  text-align: center; /*to center text in the middle use left and right 0px and then align text in the center*/
+  left: 0px;
+  right: 0px;
+}
 
 .big {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 35px;
-    color:#BEBEBE;
-    letter-spacing: 5px;
-    top: 80px;
-    max-width: 400px; /* the max size of my border*/
-    border-top: 2px solid #BEBEBE;
-    border-bottom: 2px solid #BEBEBE;
-    margin: 0 auto;/*will center the containing elements.*/
+  font-family: "Roboto Mono", monospace;
+  font-size: 35px;
+  color: #bebebe;
+  letter-spacing: 5px;
+  top: 80px;
+  max-width: 400px; /* the max size of my border*/
+  border-top: 2px solid #bebebe;
+  border-bottom: 2px solid #bebebe;
+  margin: 0 auto; /*will center the containing elements.*/
 }
-
 
 #Brazil {
-    font-size: 80px;
-    font-family: 'Saira';
-    letter-spacing: 5px;
+  font-size: 80px;
+  font-family: "Saira";
+  letter-spacing: 5px;
+  color: #b56727;
+  padding-top: 80px;
+  font-weight: 500;
+}
+
+p.explore {
+  padding-top: 18%;
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px;
+  color: #b56727;
+  text-transform: uppercase;
+  text-align: right;
+  position: absolute;
+  top: 250px;
+  right: 45px;
+  font-weight: normal;
+  max-width: 50vw;
+}
+
+div.footer {
+  padding-bottom: 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  background-color: #593123;
+  height: 50px;
+  text-align: right;
+}
+
+.barlink {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+}
+
+li {
+  display: inline-block; /*so the list menu will be side to side*/
+  padding-left: 40px;
+  margin-right: 40px;
+  margin-top: 15px;
+  position: relative;
+}
+
+.barlink:hover {
+  background-color: #efe0cf;
+  color: #593123;
+  border-radius: 5px;
+}
+
+main {
+  position: relative;
+  padding-top: 70vh;
+}
+
+.content {
+  padding-top: 0px;
+}
+
+h1,
+p,
+h2 {
+  text-align: center;
+}
+.brown {
+  background-color: #efe0cf;
+  padding: 20px 0px;
+}
+.vibe {
+  color: #593123;
+  padding: 15px;
+  font-size: 70px;
+  text-transform: uppercase;
+  font-family: "Amatic", "cursive";
+  font-weight: normal;
+}
+
+.description {
+  font-size: 20px;
+  margin: 0px 50px 0px;
+  padding: 30px 0px;
+  font-family: "Sang";
+  text-decoration: none;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+  color: #593123;
+}
+
+.destination {
+  padding: 10px 0px 10px; /*padding only on text so image won't have any spaces*/
+  font-family: "Saira";
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 20px;
+  color: #964b00;
+}
+
+.brief {
+  color: #7e7e7e;
+  size: 8px;
+  font-family: "Anonymous";
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #efe0cf;
+  margin: 50px 15px 0px 15px;
+  height: 300px; /*define height of the card*/
+  width: 320px; /*define width of the card*/
+  max-width: 400px;
+  justify-content: center;
+}
+
+.img {
+  height: 210px;
+  padding: 0;
+  margin: 0px;
+  background-size: cover; /* to make the image cover the space defined above*/
+}
+
+.paradise {
+  background-image: url("/Pictures/noronha.jpg");
+}
+
+.unique {
+  background-image: url("/Pictures/lencois.jpeg");
+}
+
+.biodiverse {
+  background-image: url("/Pictures/jalapao.jpeg");
+}
+
+.waterfall {
+  background-image: url("/Pictures/chapada.jpg");
+}
+
+.paradise:hover {
+  background-image: url("/Pictures/noronha2.png");
+  transition: 0.8s;
+}
+
+.unique:hover {
+  background-image: url("/Pictures/lencois2.jpeg");
+  transition: 0.8s;
+}
+
+.biodiverse:hover {
+  background-image: url("/Pictures/jalapao2.webp");
+  transition: 0.8s;
+}
+
+.waterfall:hover {
+  background-image: url("/Pictures/chapada2.jpeg");
+  transition: 0.8s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: all 0.6s ease;
+  background-color: #f5f5f5;
+  border: 1px solid #593123;
+}
+
+.downline {
+  padding: 10px 0px;
+  position: relative;
+  padding-top: 20px;
+  margin: 0 auto;
+  width: 400px;
+  font-family: "Anonymous";
+  font-size: 12px;
+  color: #593123;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 480px) {
+  .big {
+    font-size: 20px;
     color: #b56727;
-    padding-top: 80px;
-    font-weight: 500;
-
-}
- 
-p.explore{
-    padding-top: 8%;
-    font-family: 'Anonymous';
-    font-size: 17px;
-    color: #b56727;
-    text-transform: uppercase;
-    text-align: right;
-    position: absolute;
-    top: 250px;
-    right: 45px;
-    font-weight: normal;
-    max-width: 50vw;
-
-}
-
-div.footer{
-    padding-bottom: 5%;
-}
-
-.discover a {
-    color: #b56727;
-    text-transform: uppercase;
-    padding: 10px 20px;
-    background-color: white;
-    position: absolute;
-    top: 420px;
-    right: 120px;
-    border: 2px solid #b56727;
-    border-radius: 10px;
-    font-family: 'Saira';
-    text-decoration: none; /*to remove underline from the anchor*/
-    margin-top: 15px;
-}
-
-.discover a:hover{
-    background-color:  #b56727;
-    color: white;
-    transform: scale(1.1);
-    transition: all .5s ease;
-
+  }
 }
