@@ -33,7 +33,7 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
-  background-image: url("/Pictures/rio.jpg");
+  background-image: url("./Pictures/rio.jpg");
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* background-size can be defined with pixels or names*/
   opacity: 0.85;
