@@ -11,6 +11,7 @@
 ### The project
 Hiden Brazil is my first authorial project made with the basic principles of HTML and CSS. 
 The project itself has the intention to highlight some of my favorite travel spots within Brazil, I found it fun to practice some functions I was learning like Flexbox and transitions together with building an interface related to a topic that I like. The website was created all in index, so only one main page and the relative links to each destination is redirected to Wikipedia.
+I have tried to implement Media Query for a better responsiveness but it didn’t work, open for suggestions on a new branch.
 
 ### Link
 
