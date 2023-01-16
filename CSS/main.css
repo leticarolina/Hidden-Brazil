@@ -6,17 +6,17 @@
 
 @font-face {
   font-family: "Saira";
-  src: url("Font/Saira-VariableFont_wdth,wght.ttf") format("truetype");
+  src: url("../Font/Saira-VariableFont_wdth,wght.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Anonymous";
-  src: url("/Font/AnonymousPro.ttf") format("truetype");
+  src: url("../Font/AnonymousPro.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Amatic";
-  src: url("/Font/AmaticSC.ttf") format("truetype");
+  src: url("../Font/AmaticSC.ttf") format("truetype");
 }
 
 .background {
@@ -195,38 +195,38 @@ section {
 }
 
 .paradise {
-  background-image: url("/Pictures/noronha.jpg");
+  background-image: url("../Pictures/noronha.jpg");
 }
 
 .unique {
-  background-image: url("/Pictures/lencois.jpeg");
+  background-image: url("../Pictures/lencois.jpeg");
 }
 
 .biodiverse {
-  background-image: url("/Pictures/jalapao.jpeg");
+  background-image: url("../Pictures/jalapao.jpeg");
 }
 
 .waterfall {
-  background-image: url("/Pictures/chapada.jpg");
+  background-image: url("../Pictures/chapada.jpg");
 }
 
 .paradise:hover {
-  background-image: url("/Pictures/noronha2.png");
+  background-image: url("../Pictures/noronha2.png");
   transition: 0.8s;
 }
 
 .unique:hover {
-  background-image: url("/Pictures/lencois2.jpeg");
+  background-image: url("../Pictures/lencois2.jpeg");
   transition: 0.8s;
 }
 
 .biodiverse:hover {
-  background-image: url("/Pictures/jalapao2.webp");
+  background-image: url("../Pictures/jalapao2.webp");
   transition: 0.8s;
 }
 
 .waterfall:hover {
-  background-image: url("/Pictures/chapada2.jpeg");
+  background-image: url("../Pictures/chapada2.jpeg");
   transition: 0.8s;
 }
 
